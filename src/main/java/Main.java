@@ -15,8 +15,11 @@ import utfpr.dainf.ct.ed.exemplo.ArvoreBinaria;
  *               1   6     14 
  *                  / \    /
  *                 4   7  13
+ *                  \
+ *                   5
  * 
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
+ * @author Eduardo Darrazão <darrazao@alunos.utfpr.edu.br>
  */
 public class Main {
     
@@ -44,5 +47,35 @@ public class Main {
             System.out.print(" " + no.getValor());
         }
         
+        // Para testar as funções novas.
+//        System.out.println("\n\n\nRecursivo Em-Ordem: ");
+//        a.visitaEmOrdem();
+//        System.out.println("\nIterativo Em-Ordem: ");
+//        a.reinicia();
+//        while ((no = a.proximoEmOrdem()) != null) {
+//            System.out.print(" " + no.getValor());
+//        }
+//        
+//        System.out.println("\n\n\nRecursivo Pré-Ordem: ");
+//        a.visitaPreOrdem();
+//        System.out.println("\nIterativo Pré-Ordem: ");
+//        a.reinicia();
+//        while ((no = a.proximoPreOrdem()) != null) {
+//            System.out.print(" " + no.getValor());
+//        }
+//        
+//        System.out.println("\n\n\nRecursivo Pós-Ordem: ");
+//        a.visitaPosOrdem();
+//        System.out.println("\nIterativo Pós-Ordem: ");
+//        a.reinicia();
+//        while ((no = a.proximoPosOrdem()) != null) {
+//            System.out.print(" " + no.getValor());
+//        }
+//        
+//        System.out.println("\nIterativo Em-Nível: ");
+//        a.reinicia();
+//        while ((no = a.proximoEmNivel()) != null) {
+//            System.out.print(" " + no.getValor());
+//        }
     }
 }
